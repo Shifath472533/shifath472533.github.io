@@ -1,0 +1,25 @@
+body {
+    background-color: #020b16;
+    color: white;
+    font-size: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+.test-container{
+    position: relative;
+    max-width: 200px;
+    margin: 100px auto;
+}
+.test-span {
+    /* height: 100;
+    width: 0; */
+    position: absolute;
+    /* top: 28px; */
+    /* z-index: 1; */
+    border-top: 150px solid red;
+    border-bottom: 1500px solid blue;
+    border-left: 18000px solid green;
+    /* border-right: 500px solid pink; */
+    /* border-radius: 10%; */
+    /* right: -15px; */
+    /* border-bottom: 1500px solid blue; */
+}
