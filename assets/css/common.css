@@ -624,7 +624,7 @@ img {
     content: "";
     width: 4.8rem;
     height: 2px;
-    background: #020b16;
+    background: #0A2049;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -727,7 +727,7 @@ img {
 }
 
 .back-arrow.js-color {
-    color: #020b16
+    color: #0A2049
 }
 
 .page-top {
@@ -735,7 +735,7 @@ img {
     height: 100vh;
     position: relative;
     color: #fff;
-    background: #020b16
+    background: #0A2049
 }
 
 @media screen and (max-width:420px) {
@@ -780,13 +780,23 @@ img {
     }
 }
 
-.page-top .image__reile {
-    background: url(../img/reile.jpg) no-repeat center;
+.page-top .image__experience {
+    background: url(../img/experience.png) no-repeat center;
+    background-size: cover
+}
+
+.page-top .image__projects {
+    background: url(../img/projects.svg) no-repeat center;
+    background-size: cover
+}
+
+.page-top .image__research {
+    background: url(../img/research.svg) no-repeat center;
     background-size: cover
 }
 
 .page-top .image__about {
-    background: url(../img/about.jpg) no-repeat center;
+    background: url(../img/Feeling\ proud-amico.svg) no-repeat center;
     background-size: cover
 }
 
@@ -903,7 +913,7 @@ img {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #020b16;
+    background: #0A2049;
     z-index: 99999;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0)
@@ -913,7 +923,7 @@ img {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #020b16;
+    background: #0A2049;
     top: 0;
     left: 0
 }
@@ -945,12 +955,12 @@ header {
 }
 
 header.js-color a {
-    color: #020b16
+    color: #0A2049
 }
 
 header.js-color .menuIcon:after,
 header.js-color .menuIcon:before {
-    background: #020b16
+    background: #0A2049
 }
 
 header a {
@@ -1205,10 +1215,10 @@ header .global-nav__sns a:last-child {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#072142), color-stop(#061c37), color-stop(#07182b), color-stop(#061220), to(#020b16));
-    background-image: -webkit-linear-gradient(top, #072142, #061c37, #07182b, #061220, #020b16);
-    background-image: -o-linear-gradient(top, #072142, #061c37, #07182b, #061220, #020b16);
-    background-image: linear-gradient(to bottom, #072142, #061c37, #07182b, #061220, #020b16);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#072142), color-stop(#061c37), color-stop(#07182b), color-stop(#061220), to(#0A2049));
+    background-image: -webkit-linear-gradient(top, #072142, #061c37, #07182b, #061220, #0A2049);
+    background-image: -o-linear-gradient(top, #072142, #061c37, #07182b, #061220, #0A2049);
+    background-image: linear-gradient(to bottom, #072142, #061c37, #07182b, #061220, #0A2049);
     z-index: -200
 }
 
@@ -1515,8 +1525,18 @@ header .global-nav__sns a:last-child {
     background: #072142
 }
 
-.image--works {
+.image--experience {
     background: url(../img/experience.png) no-repeat center;
+    background-size: cover
+}
+
+.image--projects {
+    background: url(../img/projects.svg) no-repeat center;
+    background-size: cover
+}
+
+.image--research {
+    background: url(../img/research.svg) no-repeat center;
     background-size: cover
 }
 
@@ -1526,7 +1546,7 @@ header .global-nav__sns a:last-child {
 }
 
 .image--research {
-    background: url(../img/research.jpg) no-repeat center;
+    background: url(../img/research.svg) no-repeat center;
     background-size: cover
 }
 
@@ -1822,7 +1842,7 @@ header .global-nav__sns a:last-child {
 .back-btn {
     display: inline-block;
     font-size: 3.2rem;
-    color: #020b16;
+    color: #0A2049;
     letter-spacing: 0.2em;
     position: relative;
     -webkit-transition: 0.5s;
@@ -1844,7 +1864,7 @@ header .global-nav__sns a:last-child {
     content: "";
     width: 64px;
     height: 2px;
-    background: #020b16;
+    background: #0A2049;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1866,7 +1886,7 @@ header .global-nav__sns a:last-child {
     content: "";
     width: 24px;
     height: 1px;
-    background: #020b16;
+    background: #0A2049;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1951,6 +1971,13 @@ header .global-nav__sns a:last-child {
     line-height: 1.3
 }
 
+.text__bold {
+    font-size: 1.8rem;
+    /* letter-spacing: 0.2em; */
+    font-family: "futura_de";
+    line-height: 1.3
+}
+
 @media screen and (max-width:420px) {
     .who__en {
         font-size: 1rem
@@ -1968,8 +1995,20 @@ header .global-nav__sns a:last-child {
 }
 
 .who__image {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition-property: scale, transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
     -webkit-box-shadow: 0px 63px 154px -20px rgba(7, 33, 66, 0.5);
     box-shadow: 0px 63px 154px -20px rgba(7, 33, 66, 0.5)
+}
+.who__image:hover {
+    scale: 200%;
+    transition-property: scale, transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
 }
 
 @media screen and (max-width:420px) {

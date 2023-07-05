@@ -1,4 +1,4 @@
-<!-- [![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://rishavchanda.io) -->
+[![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm S.M. Sadiq-Ur-Rahman Shifath</h1>
 <h3 align="center">A passionate Full Stack Web Developer from Bangladesh</h3>
 <img align="right" alt="Coding" width="400" src="https://qph.cf2.quoracdn.net/main-qimg-4b695f72ac7737ce5b36508a0058dd02">
