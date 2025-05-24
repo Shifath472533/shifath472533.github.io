@@ -300,6 +300,14 @@ img {
     text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5)
 }
 
+.title__text_index {
+    font-size: 6rem;
+}
+
+.title__text_main {
+    color: rgb(133, 218, 252);
+}
+
 @media screen and (max-width:800px) {
     .title__text {
         font-size: 7.6rem
@@ -1994,6 +2002,11 @@ header .global-nav__sns a:last-child {
     }
 }
 
+.who_bold {
+    font-weight: bold;
+    color: #072142;
+}
+
 .who__image {
     height: 150px;
     width: 150px;
@@ -2234,6 +2247,18 @@ header .global-nav__sns a:last-child {
     animation: ratio90 1.5s forwards
 }
 
+.skill-set__bar.p85:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(50%, #8c2b7a), to(#ff4d5a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 50%, #ff4d5a);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 50%, #ff4d5a);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 50%, #ff4d5a)
+}
+
+.skill-set__bar.p85.in:after {
+    -webkit-animation: ratio85 1.5s forwards;
+    animation: ratio85 1.5s forwards
+}
+
 .skill-set__bar.p80:after {
     background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(50%, #8c2b7a), to(#ff4d5a));
     background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 50%, #ff4d5a);
@@ -2244,6 +2269,18 @@ header .global-nav__sns a:last-child {
 .skill-set__bar.p80.in:after {
     -webkit-animation: ratio80 1.5s forwards;
     animation: ratio80 1.5s forwards
+}
+
+.skill-set__bar.p75:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a), to(#ff4d5a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%, #ff4d5a);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%, #ff4d5a);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%, #ff4d5a)
+}
+
+.skill-set__bar.p75.in:after {
+    -webkit-animation: ratio75 1.5s forwards;
+    animation: ratio75 1.5s forwards
 }
 
 .skill-set__bar.p70:after {
@@ -2258,6 +2295,18 @@ header .global-nav__sns a:last-child {
     animation: ratio70 1.5s forwards
 }
 
+.skill-set__bar.p65:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(75%, #8c2b7a), to(#ff4d5a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 75%, #ff4d5a);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 75%, #ff4d5a);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 75%, #ff4d5a)
+}
+
+.skill-set__bar.p65.in:after {
+    -webkit-animation: ratio65 1.5s forwards;
+    animation: ratio65 1.5s forwards
+}
+
 .skill-set__bar.p60:after {
     background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(75%, #8c2b7a), to(#ff4d5a));
     background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 75%, #ff4d5a);
@@ -2268,6 +2317,18 @@ header .global-nav__sns a:last-child {
 .skill-set__bar.p60.in:after {
     -webkit-animation: ratio60 1.5s forwards;
     animation: ratio60 1.5s forwards
+}
+
+.skill-set__bar.p55:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p55.in:after {
+    -webkit-animation: ratio55 1.5s forwards;
+    animation: ratio55 1.5s forwards
 }
 
 .skill-set__bar.p50:after {
@@ -2282,6 +2343,18 @@ header .global-nav__sns a:last-child {
     animation: ratio50 1.5s forwards
 }
 
+.skill-set__bar.p45:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p45.in:after {
+    -webkit-animation: ratio45 1.5s forwards;
+    animation: ratio45 1.5s forwards
+}
+
 .skill-set__bar.p40:after {
     background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
     background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
@@ -2292,6 +2365,54 @@ header .global-nav__sns a:last-child {
 .skill-set__bar.p40.in:after {
     -webkit-animation: ratio40 1.5s forwards;
     animation: ratio40 1.5s forwards
+}
+
+.skill-set__bar.p35:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p35.in:after {
+    -webkit-animation: ratio35 1.5s forwards;
+    animation: ratio35 1.5s forwards
+}
+
+.skill-set__bar.p30:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p30.in:after {
+    -webkit-animation: ratio30 1.5s forwards;
+    animation: ratio30 1.5s forwards
+}
+
+.skill-set__bar.p25:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p25.in:after {
+    -webkit-animation: ratio25 1.5s forwards;
+    animation: ratio25 1.5s forwards
+}
+
+.skill-set__bar.p20:after {
+    background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(65%, #8c2b7a));
+    background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
+    background-image: linear-gradient(to right, #072142, #8c2b7a 65%)
+}
+
+.skill-set__bar.p20.in:after {
+    -webkit-animation: ratio20 1.5s forwards;
+    animation: ratio20 1.5s forwards
 }
 
 .footer {
@@ -2360,6 +2481,24 @@ header .global-nav__sns a:last-child {
     }
 }
 
+@-webkit-keyframes ratio85 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 85%
+    }
+}
+
+@keyframes ratio85 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 85%
+    }
+}
+
 @-webkit-keyframes ratio80 {
     0% {
         width: 10%
@@ -2375,6 +2514,24 @@ header .global-nav__sns a:last-child {
     }
     to {
         width: 80%
+    }
+}
+
+@-webkit-keyframes ratio75 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 75%
+    }
+}
+
+@keyframes ratio75 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 75%
     }
 }
 
@@ -2396,6 +2553,24 @@ header .global-nav__sns a:last-child {
     }
 }
 
+@-webkit-keyframes ratio65 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 65%
+    }
+}
+
+@keyframes ratio65 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 65%
+    }
+}
+
 @-webkit-keyframes ratio60 {
     0% {
         width: 10%
@@ -2411,6 +2586,24 @@ header .global-nav__sns a:last-child {
     }
     to {
         width: 60%
+    }
+}
+
+@-webkit-keyframes ratio55 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 55%
+    }
+}
+
+@keyframes ratio55 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 55%
     }
 }
 
@@ -2432,6 +2625,24 @@ header .global-nav__sns a:last-child {
     }
 }
 
+@-webkit-keyframes ratio45 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 45%
+    }
+}
+
+@keyframes ratio45 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 45%
+    }
+}
+
 @-webkit-keyframes ratio40 {
     0% {
         width: 10%
@@ -2447,5 +2658,77 @@ header .global-nav__sns a:last-child {
     }
     to {
         width: 40%
+    }
+}
+
+@-webkit-keyframes ratio35 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 35%
+    }
+}
+
+@keyframes ratio35 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 35%
+    }
+}
+
+@-webkit-keyframes ratio30 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 30%
+    }
+}
+
+@keyframes ratio30 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 30%
+    }
+}
+
+@-webkit-keyframes ratio25 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 25%
+    }
+}
+
+@keyframes ratio25 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 25%
+    }
+}
+
+@-webkit-keyframes ratio20 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 20%
+    }
+}
+
+@keyframes ratio20 {
+    0% {
+        width: 10%
+    }
+    to {
+        width: 20%
     }
 }
